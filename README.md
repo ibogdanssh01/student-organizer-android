@@ -184,7 +184,7 @@ Central hub for academic statistics:
 ## How to Run
 
 1. Clone the repository:
-   git clone https://github.com/<username>/student-organizer-android.git
+   git clone https://github.com/ibogdanssh01/student-organizer-android.git
 
 2. Open the project in Android Studio.
 
