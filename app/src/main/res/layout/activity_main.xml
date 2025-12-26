@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".activities.MainActivity">
+
+    <!-- App Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Navigation Buttons -->
+    <Button
+        android:id="@+id/btnViewCourses"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/view_courses"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnViewAssignments"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/view_assignments"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnViewExams"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/view_exams"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnDashboard"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnSchedule"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/schedule" />
+
+    <!-- Spacer to push footer to the bottom -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Footer -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/master_s_project_2025"
+        android:textSize="12sp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

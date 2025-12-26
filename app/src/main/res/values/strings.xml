@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Student Organizer</string>
+    <string name="courses">Courses</string>
+    <string name="add_course">Add Course</string>
+    <string name="view_courses">View Courses</string>
+    <string name="view_assignments">View Assignments</string>
+    <string name="view_exams">View Exams</string>
+    <string name="course_details">Course Details</string>
+    <string name="course_name">Course Name</string>
+    <string name="teacher_name">Teacher Name</string>
+    <string name="room_number">Room Number</string>
+    <string name="start_time_format">Start Time (HH:MM)</string>
+    <string name="end_time_format">End Time (HH:MM)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="master_s_project_2025">Masters Project 2025</string>
+    <string name="schedule">Schedule</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="overall_gpa_placeholder">Overall GPA: 0.00 / 10.0</string>
+    <string name="gpa_subtitle">Based on all graded exams</string>
+</resources>

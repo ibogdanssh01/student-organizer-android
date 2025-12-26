@@ -1,0 +1,43 @@
+# Gradle
+./gradle/
+build/
+.gradle/
+.gradle-wrapper/
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Local configuration files
+local.properties
+gradle.properties
+
+# Generated and binary files
+app/build/
+*.apk
+*.aar
+*.jar
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Database files (SQLite)
+*.db
+*.db-journal
+
+# Emulator files
+*.avd
+*.lock
+
+# Misc
+.settings/
+.metadata/
+tmp/
+*.tmp

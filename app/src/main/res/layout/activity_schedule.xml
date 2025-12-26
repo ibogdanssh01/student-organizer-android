@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Weekly Schedule"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+<!--        <Button-->
+<!--            android:id="@+id/btnBackToMain"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Back"-->
+<!--            android:textSize="12sp"-->
+<!--            android:paddingLeft="12dp"-->
+<!--            android:paddingRight="12dp" />-->
+    </LinearLayout>
+
+    <!-- Schedule Container -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/scheduleContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <!-- No Schedule Message -->
+    <TextView
+        android:id="@+id/textViewNoSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No courses scheduled yet"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="#999999"
+        android:visibility="gone"
+        android:layout_marginTop="32dp" />
+</LinearLayout>
