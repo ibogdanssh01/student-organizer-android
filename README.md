@@ -181,44 +181,6 @@ Central hub for academic statistics:
 
 ---
 
-## Project Structure (Simplified)
-
-app/
-
-  src/main/java/com/example/studentorganizer/
-  
-    MainActivity.java
-    activities/
-      CourseListActivity.java
-      CourseFormActivity.java
-      AssignmentListActivity.java
-      AssignmentFormActivity.java
-      ExamListActivity.java
-      ExamFormActivity.java
-      ScheduleActivity.java
-      DashboardActivity.java
-    db/
-      DatabaseHelper.java
-      CourseDAO.java
-      AssignmentDAO.java
-      ExamDAO.java
-    models/
-      Course.java
-      Assignment.java
-      Exam.java
-    adapters/
-      CourseAdapter.java
-      AssignmentAdapter.java
-      ExamAdapter.java
-  src/main/res/
-    layout/
-    values/
-AndroidManifest.xml
-build.gradle(.kts)
-settings.gradle(.kts)
-
----
-
 ## How to Run
 
 1. Clone the repository:
