@@ -184,7 +184,9 @@ Central hub for academic statistics:
 ## Project Structure (Simplified)
 
 app/
+
   src/main/java/com/example/studentorganizer/
+  
     MainActivity.java
     activities/
       CourseListActivity.java
